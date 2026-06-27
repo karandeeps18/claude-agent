@@ -95,3 +95,7 @@ get_stock_prices_schema = ToolParam({
     ]
 })
 
+
+if __name__ == "__main__":
+   price =  get_stock_prices("SPCX", "2026-06-22")
+   print(price)

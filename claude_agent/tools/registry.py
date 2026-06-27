@@ -9,6 +9,6 @@ TOOL_FUNCTION = {
     "get_stock_prices": market_tools.get_stock_prices,
 }
 
-#  
+# 
 def run_tools(tool_name, tool_input):
     return TOOL_FUNCTION[tool_name](**tool_input)

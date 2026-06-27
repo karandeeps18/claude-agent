@@ -15,7 +15,7 @@ def run_conversations(messages):
         if response.stop_reason != "tool_use":
             return "".join(b.text for b in response.content if b.type == "text")
          
-        # caude needs tool calling 
+        # caude needs tool calling
         tools_results = [] 
         for block in response.content:
             if block.type == "tool_use":
