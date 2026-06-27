@@ -133,7 +133,7 @@ Then chat in the terminal. Type `exit` or `quit` to stop.
    (or a new module): a Python function plus a matching `ToolParam` schema.
 2. **Register it** in `claude_agent/tools/registry.py`: add the schema to `TOOLS` and the
    `name -> function` entry to `TOOL_FUNCTION`.
-3. That's it — Claude can now call it. See the
+3. Claude can now call it. See the
    [Adding a Tool guide](https://karandeeps18.github.io/claude-agent/adding-a-tool/).
 
 ## Tools Reference
