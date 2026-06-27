@@ -1,0 +1,10 @@
+# Runtime
+anthropic==0.105.2
+yfinance==1.4.1
+pandas==3.0.3
+python-dotenv==1.2.2
+rich==15.0.0
+
+# Docs (GitHub Pages site)
+mkdocs==1.6.1
+mkdocs-material==9.7.6
